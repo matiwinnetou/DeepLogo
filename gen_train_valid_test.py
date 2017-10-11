@@ -39,10 +39,9 @@ CROPPED_AUG_IMAGE_DIR = os.path.join(
     TRAIN_DIR, 'flickr_logos_27_dataset_cropped_augmented_images')
 PICKLE_FILENAME = 'deep_logo.pickle'
 
-TRAIN_SIZE = 50000  # prune the training data as needed. There are 163169 training files.
-VALID_SIZE = 5000
+TRAIN_SIZE = 3709  # prune the training data as needed. There are 163169 training files.
+VALID_SIZE = 3451
 TEST_SIZE = 5000  # There are 54425 test files.
-
 
 def load_logo(data_dir):
     image_files = os.listdir(data_dir)
@@ -69,6 +68,7 @@ def load_logo(data_dir):
     print('Full dataset tensor:', dataset.shape)
     print('Mean:', np.mean(dataset))
     print('Standard deviation:', np.std(dataset))
+
     return dataset
 
 
