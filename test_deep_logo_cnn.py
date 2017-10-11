@@ -98,7 +98,7 @@ def main():
     else:
         # Select a test image from a test directory
         test_dirs = [
-            os.path.join(CROPPED_AUG_IMAGE_DIR, class_name, 'test')
+            os.path.join(CROPPED_AUG_IMAGE_DIR, class_name, 'test2')
             for class_name in common.CLASS_NAME
         ]
         test_dir = np.random.choice(test_dirs)
