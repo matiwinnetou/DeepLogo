@@ -1,0 +1,9 @@
+.idea/
+flickr_logos_27_dataset.tar.gz
+flickr_logos_27_dataset/flickr_logos_27_dataset_cropped_augmented_images
+flickr_logos_27_dataset/flickr_logos_27_dataset_images
+flickr_logos_27_dataset/flickr_logos_27_dataset_images/
+flickr_logos_27_dataset/flickr_logos_27_dataset_images.tar.gz
+flickr_logos_27_dataset/train
+deep_logo.pickle
+*.DS_Store
